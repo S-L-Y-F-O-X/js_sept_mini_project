@@ -1,0 +1,19 @@
+.light-theme {
+    background-image: url("https://i.postimg.cc/7h3yv0Bx/168-77-1.jpg");
+    background-attachment: fixed;
+
+}
+.dark-theme {
+    background-image: url("https://i.postimg.cc/J0VWdP56/168-77.jpg");
+    background-attachment: fixed;
+}
+
+#theme-toggle {
+    font-size: 150%;
+    margin-left: 90%;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: fixed;
+}
