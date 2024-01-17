@@ -40,8 +40,7 @@ class UserDetailsRenderer {
                 <p>Company: ${user.company.name}, ${user.company.catchPhrase}, ${user.company.bs}</p>
                 <p>Website: ${user.website}</p>
                 </div>
-                <button id="show-posts-button">Show Posts</button>
-            `;
+                <button id="show-posts-button">Show Posts</button>`;
         const showPostsButton = document.getElementById('show-posts-button') as HTMLButtonElement;
         showPostsButton.addEventListener('click', async () => {
             await this.showUserPosts(userId);
